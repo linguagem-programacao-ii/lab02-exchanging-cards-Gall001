@@ -1,5 +1,4 @@
-count1 = int(input('how meny cards does alice have?'))
-count2 = int(input('how meny cards does betty have?'))
+count1, count2 = [int(x) for x in input("Enter alice and betty card: ").split()]
 list1 = []
 list2 = []
 trades = 0
